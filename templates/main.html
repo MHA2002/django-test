@@ -6,7 +6,13 @@
 </head>
 <body>
 
-    <div>welcome</div>
+    {% for person in Person %}
+        <p>my name is:</p>
+        <h3>{{ person.first_name }}</h3>
+        <p>and my last name is:</p>
+        <h3>{{ person.last_name }}</h3>
+        <h3>{{ person.condition }}</h3>
+    {% endfor %}
 
 </body>
 </html>
