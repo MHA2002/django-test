@@ -6,4 +6,3 @@ def Main(request):
     return render(request, 'main.html', {'Person':all})
 def Hello(request):
     return render(request, 'hello.html')
-
